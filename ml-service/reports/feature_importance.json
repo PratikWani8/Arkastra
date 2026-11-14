@@ -1,0 +1,196 @@
+{
+  "model_name": "Arkastra LogisticRegression",
+  "feature_count": 32,
+  "top_features": [
+    {
+      "feature": "log_long_flux",
+      "importance": 0.6606401538457299
+    },
+    {
+      "feature": "m_flares_prev_24h",
+      "importance": 0.42840730584905695
+    },
+    {
+      "feature": "m_flares_prev_7d",
+      "importance": 0.4227241994540955
+    },
+    {
+      "feature": "mean_flux_12h",
+      "importance": 0.29853295548325465
+    },
+    {
+      "feature": "flux_ratio",
+      "importance": 0.29287149046461874
+    },
+    {
+      "feature": "x_flares_prev_24h",
+      "importance": 0.2760997991359626
+    },
+    {
+      "feature": "log_short_flux",
+      "importance": 0.20347976804920442
+    },
+    {
+      "feature": "cos_doy",
+      "importance": 0.18370124346450895
+    },
+    {
+      "feature": "flux_volatility_ratio",
+      "importance": 0.13277824064696828
+    },
+    {
+      "feature": "mean_flux_24h",
+      "importance": 0.11656976420059811
+    },
+    {
+      "feature": "max_flux_12h",
+      "importance": 0.10540250514409388
+    },
+    {
+      "feature": "hours_since_last_m_flare",
+      "importance": 0.10208431924442724
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 0.09946136889232916
+    },
+    {
+      "feature": "hours_since_last_x_flare",
+      "importance": 0.09419862240677943
+    },
+    {
+      "feature": "max_flux_24h",
+      "importance": 0.08858125080991619
+    }
+  ],
+  "all_features": [
+    {
+      "feature": "log_long_flux",
+      "importance": 0.6606401538457299
+    },
+    {
+      "feature": "m_flares_prev_24h",
+      "importance": 0.42840730584905695
+    },
+    {
+      "feature": "m_flares_prev_7d",
+      "importance": 0.4227241994540955
+    },
+    {
+      "feature": "mean_flux_12h",
+      "importance": 0.29853295548325465
+    },
+    {
+      "feature": "flux_ratio",
+      "importance": 0.29287149046461874
+    },
+    {
+      "feature": "x_flares_prev_24h",
+      "importance": 0.2760997991359626
+    },
+    {
+      "feature": "log_short_flux",
+      "importance": 0.20347976804920442
+    },
+    {
+      "feature": "cos_doy",
+      "importance": 0.18370124346450895
+    },
+    {
+      "feature": "flux_volatility_ratio",
+      "importance": 0.13277824064696828
+    },
+    {
+      "feature": "mean_flux_24h",
+      "importance": 0.11656976420059811
+    },
+    {
+      "feature": "max_flux_12h",
+      "importance": 0.10540250514409388
+    },
+    {
+      "feature": "hours_since_last_m_flare",
+      "importance": 0.10208431924442724
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 0.09946136889232916
+    },
+    {
+      "feature": "hours_since_last_x_flare",
+      "importance": 0.09419862240677943
+    },
+    {
+      "feature": "max_flux_24h",
+      "importance": 0.08858125080991619
+    },
+    {
+      "feature": "std_flux_24h",
+      "importance": 0.08181539015865058
+    },
+    {
+      "feature": "m_flares_prev_6h",
+      "importance": 0.07458938503435496
+    },
+    {
+      "feature": "sin_doy",
+      "importance": 0.07433606356007208
+    },
+    {
+      "feature": "mean_flux_6h",
+      "importance": 0.05835528200889526
+    },
+    {
+      "feature": "max_flux_1h",
+      "importance": 0.03597543193692152
+    },
+    {
+      "feature": "cos_hour",
+      "importance": 0.03498005742751231
+    },
+    {
+      "feature": "max_flux_6h",
+      "importance": 0.034683025440704396
+    },
+    {
+      "feature": "sin_hour",
+      "importance": 0.020603518304594316
+    },
+    {
+      "feature": "short_flux",
+      "importance": 0.019331657002877863
+    },
+    {
+      "feature": "flux_change_3h",
+      "importance": 0.017409294179037863
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 0.01483862393546934
+    },
+    {
+      "feature": "flux_change_6h",
+      "importance": 0.01321878777737358
+    },
+    {
+      "feature": "long_flux",
+      "importance": 0.012590641503103317
+    },
+    {
+      "feature": "flux_change_1h",
+      "importance": 0.01212660334027239
+    },
+    {
+      "feature": "flux_derivative_1h",
+      "importance": 0.01212660334027239
+    },
+    {
+      "feature": "flux_acceleration_3h",
+      "importance": 0.011466979034016587
+    },
+    {
+      "feature": "max_flux_3h",
+      "importance": 0.005822827049027365
+    }
+  ]
+}
