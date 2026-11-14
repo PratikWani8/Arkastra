@@ -1,0 +1,39 @@
+{
+  "method": "Platt Scaling (Sigmoid)",
+  "pre_cal_brier": 0.15279641190928836,
+  "post_cal_brier": 0.16072732073957943,
+  "calibration_bins": [
+    {
+      "predicted_mean": 0.2638188167892228,
+      "observed_frequency": 0.1702127659574468
+    },
+    {
+      "predicted_mean": 0.345080644213308,
+      "observed_frequency": 0.5602836879432624
+    },
+    {
+      "predicted_mean": 0.44993701443203643,
+      "observed_frequency": 0.7238493723849372
+    },
+    {
+      "predicted_mean": 0.5398596118153188,
+      "observed_frequency": 0.696078431372549
+    },
+    {
+      "predicted_mean": 0.6583341395561716,
+      "observed_frequency": 0.8778280542986425
+    },
+    {
+      "predicted_mean": 0.7461210623700542,
+      "observed_frequency": 0.7824267782426778
+    },
+    {
+      "predicted_mean": 0.853289264829743,
+      "observed_frequency": 0.8631578947368421
+    },
+    {
+      "predicted_mean": 0.9736401749058913,
+      "observed_frequency": 0.9515789473684211
+    }
+  ]
+}
