@@ -1,0 +1,60 @@
+{
+  "generated_at_utc": "2026-11-11T12:40:37.663024Z",
+  "bss": 0.20955373012257028,
+  "comparison": [
+    {
+      "metric": "Brier Score",
+      "arkastra_ml": 0.16072732073957943,
+      "persistence_baseline": 0.2033374397028941,
+      "better": "lower"
+    },
+    {
+      "metric": "Brier Skill Score (BSS)",
+      "arkastra_ml": 0.20955373012257028,
+      "persistence_baseline": 0.0,
+      "better": "higher"
+    },
+    {
+      "metric": "True Skill Statistic (TSS)",
+      "arkastra_ml": 0.3656634580236382,
+      "persistence_baseline": 0.32853255351123023,
+      "better": "higher"
+    },
+    {
+      "metric": "ROC-AUC",
+      "arkastra_ml": 0.7764152552698915,
+      "persistence_baseline": 0.6642662767556151,
+      "better": "higher"
+    },
+    {
+      "metric": "PR-AUC",
+      "arkastra_ml": 0.9159783286848441,
+      "persistence_baseline": 0.830016421929423,
+      "better": "higher"
+    },
+    {
+      "metric": "Precision",
+      "arkastra_ml": 0.8527075812274368,
+      "persistence_baseline": 0.8433908045977011,
+      "better": "higher"
+    },
+    {
+      "metric": "Recall / Sensitivity",
+      "arkastra_ml": 0.8346289752650177,
+      "persistence_baseline": 0.8296819787985866,
+      "better": "higher"
+    },
+    {
+      "metric": "Specificity",
+      "arkastra_ml": 0.5310344827586206,
+      "persistence_baseline": 0.49885057471264366,
+      "better": "higher"
+    },
+    {
+      "metric": "F1 Score",
+      "arkastra_ml": 0.8435714285714285,
+      "persistence_baseline": 0.836480228001425,
+      "better": "higher"
+    }
+  ]
+}
