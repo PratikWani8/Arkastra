@@ -1,0 +1,101 @@
+{
+  "report_generated_utc": "2026-11-11T12:34:15.952851Z",
+  "dataset_version": "1.0.0",
+  "collection_window": {
+    "requested_start": "2023-01-01",
+    "requested_end": "2024-06-01",
+    "flux_start": "2026-11-04T12:32:00+00:00",
+    "flux_end": "2026-11-11T12:29:00+00:00"
+  },
+  "goes_flux_telemetry": {
+    "total_observations": 20144,
+    "satellites_present": {
+      "18": 10072,
+      "19": 10072
+    },
+    "quality_status_distribution": {
+      "GOOD": 20044,
+      "BAD": 100
+    },
+    "long_flux_stats_w_m2": {
+      "min": 0.0,
+      "max": 3.661185837700032e-05,
+      "mean": 1.421923457552367e-06
+    },
+    "missing_long_flux": 0,
+    "missing_short_flux": 0
+  },
+  "nasa_donki_flare_catalog": {
+    "total_flare_events": 907,
+    "class_distribution": {
+      "M": 711,
+      "C": 152,
+      "X": 43,
+      "B": 1
+    },
+    "strong_flare_events": {
+      "m_class_count": 711,
+      "x_class_count": 43,
+      "total_m_plus": 754,
+      "c_class_count": 152,
+      "b_class_count": 1
+    },
+    "first_flare_event": "2023-01-04T06:20:00+00:00",
+    "last_flare_event": "2024-06-01T19:03:00+00:00"
+  },
+  "noaa_swpc_indices": {
+    "total_daily_records": 30,
+    "date_range": {
+      "start": "2026-10-12",
+      "end": "2026-11-10"
+    }
+  },
+  "provenance_metadata": {
+    "generated_at": "2026-11-11T12:34:15.957482Z",
+    "system": "Arkastra Solar Flare Probability Forecaster",
+    "version": "1.0.0",
+    "registered_sources": {
+      "NOAA_SWPC_GOES": {
+        "name": "NOAA Space Weather Prediction Center - GOES Primary X-ray Sensor",
+        "url": "https://services.swpc.noaa.gov/json/goes/primary/xrays-7-day.json",
+        "cadence": "1 minute",
+        "wavelengths": [
+          "0.05-0.4nm",
+          "0.1-0.8nm"
+        ],
+        "unit": "W/m^2",
+        "time_standard": "UTC",
+        "satellites": [
+          "GOES-16",
+          "GOES-18"
+        ]
+      },
+      "NASA_DONKI": {
+        "name": "NASA Space Weather CCMC - Database of Notifications, Knowledge, Information (DONKI)",
+        "url": "https://ccmc.gsfc.nasa.gov/DONKI/WS/get/FLR",
+        "event_types": [
+          "Solar Flares (FLR)"
+        ],
+        "flare_classes": [
+          "B",
+          "C",
+          "M",
+          "X"
+        ],
+        "time_standard": "UTC"
+      },
+      "NOAA_SWPC_INDICES": {
+        "name": "NOAA SWPC Daily Solar Indices",
+        "url": "https://services.swpc.noaa.gov/text/daily-solar-indices.txt",
+        "cadence": "Daily summary",
+        "time_standard": "UTC"
+      },
+      "NOAA_NCEI_SCIENCE": {
+        "name": "NOAA NCEI GOES Space Environment Monitor Science-Quality Archives",
+        "url": "https://www.ncei.noaa.gov/data/goes-space-environment-monitor/access/science/xrs/",
+        "unit": "W/m^2",
+        "time_standard": "UTC"
+      }
+    }
+  }
+}
