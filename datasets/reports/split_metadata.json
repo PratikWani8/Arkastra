@@ -1,0 +1,41 @@
+{
+  "dataset_version": "1.0.0",
+  "created_at_utc": "2026-11-11T12:35:43.231214Z",
+  "total_samples": 12332,
+  "forecast_horizon_hours": 24,
+  "embargo_hours": 24,
+  "splits": {
+    "train": {
+      "samples": 8608,
+      "start": "2023-01-04T00:00:00+00:00",
+      "end": "2023-12-28T15:00:00+00:00",
+      "positive_m_plus": 4238,
+      "positive_rate": 0.4923327137546468,
+      "positive_x_plus": 288
+    },
+    "val": {
+      "samples": 1826,
+      "start": "2023-12-29T16:00:00+00:00",
+      "end": "2024-03-14T17:00:00+00:00",
+      "positive_m_plus": 798,
+      "positive_rate": 0.4370208105147864,
+      "positive_x_plus": 120
+    },
+    "test": {
+      "samples": 1850,
+      "start": "2024-03-15T18:00:00+00:00",
+      "end": "2024-05-31T19:00:00+00:00",
+      "positive_m_plus": 1415,
+      "positive_rate": 0.7648648648648648,
+      "positive_x_plus": 380
+    },
+    "PURGED_EMBARGO": {
+      "samples": 48,
+      "start": "2023-12-28T16:00:00+00:00",
+      "end": "2024-03-15T17:00:00+00:00",
+      "positive_m_plus": 1,
+      "positive_rate": 0.020833333333333332,
+      "positive_x_plus": 0
+    }
+  }
+}
