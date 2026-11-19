@@ -1,0 +1,38 @@
+{
+  "model_name": "Arkastra LogisticRegression",
+  "algorithm": "LogisticRegression",
+  "model_version": "1.0.0",
+  "trained_at_utc": "2026-11-11T12:38:38.011922Z",
+  "forecast_horizon_hours": 24,
+  "training_sample_count": 8608,
+  "validation_sample_count": 1826,
+  "test_sample_count": 1850,
+  "train_positives": 4238,
+  "train_negatives": 4370,
+  "validation_brier_score": 0.20982789465412333,
+  "calibration_method": "Platt Scaling (Sigmoid)",
+  "candidate_comparison": {
+    "LogisticRegression": {
+      "val_brier_score": 0.20982789465412333,
+      "val_roc_auc": 0.6937833396721376,
+      "val_pr_auc": 0.7031099819540466
+    },
+    "RandomForest": {
+      "val_brier_score": 0.22866991278557977,
+      "val_roc_auc": 0.6752990208985498,
+      "val_pr_auc": 0.6602962069840626
+    },
+    "XGBoost": {
+      "val_brier_score": 0.284226574596103,
+      "val_roc_auc": 0.6351762187570092,
+      "val_pr_auc": 0.6390958410376029
+    }
+  },
+  "artifacts": {
+    "model": "arkastra_mplus_model.joblib",
+    "preprocessor": "arkastra_preprocessor.joblib",
+    "calibrator": "arkastra_calibrator.joblib",
+    "baseline": "arkastra_persistence_baseline.json",
+    "schema": "arkastra_feature_schema.json"
+  }
+}
