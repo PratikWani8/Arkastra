@@ -1,0 +1,18 @@
+{
+  "model_type": "PersistenceBaseline",
+  "p_m_given_active": 0.62579580287668,
+  "p_m_given_quiet": 0.3628460306566003,
+  "climatological_prior": 0.49233449477351915,
+  "smoothing_alpha": 1.0,
+  "training_metadata": {
+    "training_samples": 8608,
+    "smoothing_alpha": 1.0,
+    "n_active_state": 4239,
+    "positives_when_active": 2653,
+    "p_m_given_active": 0.62579580287668,
+    "n_quiet_state": 4369,
+    "positives_when_quiet": 1585,
+    "p_m_given_quiet": 0.3628460306566003,
+    "climatological_prior": 0.49233449477351915
+  }
+}
