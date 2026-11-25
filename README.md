@@ -289,8 +289,3 @@ All modules feature comprehensive automated test suites:
 1. **Magnetogram Integration**: Future versions will ingest SDO/HMI magnetograms to extract active region magnetic complexity ($\beta, \gamma, \delta$ configurations) directly into CNN-based embeddings.
 2. **Flare Location Forecasting**: Current forecasting estimates global disk flare likelihood; spatial localization to specific NOAA Active Regions (ARs) is planned for Arkastra v2.
 3. **Independent X-Class Modeling**: While M-class and stronger flares ($M1.0+$) have sufficient sample volume, extreme X-class flares ($X1.0+$) remain rare. A dedicated extreme-value theory (EVT) model is under investigation.
-
----
-
-## License
-MIT License. Developed for advanced scientific space weather intelligence.
